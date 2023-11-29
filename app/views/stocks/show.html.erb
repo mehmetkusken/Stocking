@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @stock.name %>
+</p>
+
+<p>
+  <strong>Hisse:</strong>
+  <%= @stock.hisse %>
+</p>
+
+<p>
+  <strong>Hacimstr:</strong>
+  <%= @stock.hacimstr %>
+</p>
+
+<p>
+  <strong>Hacim:</strong>
+  <%= @stock.hacim %>
+</p>
+
+<p>
+  <strong>Lastpricestr:</strong>
+  <%= @stock.lastpricestr %>
+</p>
+
+<p>
+  <strong>Lastprice:</strong>
+  <%= @stock.lastprice %>
+</p>
+
+<p>
+  <strong>Rate:</strong>
+  <%= @stock.rate %>
+</p>
+
+<%= link_to 'Edit', edit_stock_path(@stock) %> |
+<%= link_to 'Back', stocks_path %>
