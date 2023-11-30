@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gold.name %>
+</p>
+
+<p>
+  <strong>Buy:</strong>
+  <%= @gold.buy %>
+</p>
+
+<p>
+  <strong>Sell:</strong>
+  <%= @gold.sell %>
+</p>
+
+<%= link_to 'Edit', edit_gold_path(@gold) %> |
+<%= link_to 'Back', golds_path %>
