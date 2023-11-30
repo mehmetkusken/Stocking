@@ -272,10 +272,12 @@ DEPENDENCIES
   devise (~> 4.9, >= 4.9.3)
   jbuilder (~> 2.7)
   jquery-rails
+  json
   listen (~> 3.3)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.7, >= 6.1.7.6)
+  rest-client
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
   spring
