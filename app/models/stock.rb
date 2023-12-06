@@ -28,5 +28,8 @@ def self.hissesenedi
         hisse.rate = d["rate"]
         hisse.save
     end       
+
+   
 end
+
 end
